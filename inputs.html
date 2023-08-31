@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Input Types Example</h2>
+    <form action="/submit" method="post">
+        <label for="text">Text Input:</label>
+        <input type="text" id="text" name="text_input" placeholder="Enter your text"><br><br>
+
+        <label for="email">Email Input:</label>
+        <input type="email" id="email" name="email_input" placeholder="example@example.com"><br><br>
+
+        <label for="password">Password Input:</label>
+        <input type="password" id="password" name="password_input"><br><br>
+
+        <label for="number">Number Input:</label>
+        <input type="number" id="number" name="number_input" min="1" max="100"><br><br>
+
+        <label for="date">Date Input:</label>
+        <input type="date" id="date" name="date_input"><br><br>
+
+        <label for="checkbox">Checkbox:</label>
+        <input type="checkbox" id="checkbox" name="checkbox_input" value="checked"><br><br>
+
+        <label for="radio1">Radio Button 1:</label>
+        <input type="radio" id="radio1" name="radio_input" value="option1">
+        
+        <label for="radio2">Radio Button 2:</label>
+        <input type="radio" id="radio2" name="radio_input" value="option2"><br><br>
+
+        <label for="file">File Upload:</label>
+        <input type="file" id="file" name="file_input"><br><br>
+
+        <label for="textarea">Textarea:</label><br>
+        <textarea id="textarea" name="textarea_input" rows="4" cols="50" placeholder="Enter your message here"></textarea><br><br>
+
+        <label for="select">Select:</label>
+        <select id="select" name="select_input">
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+        </select><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+    
+</body>
+</html>
